@@ -1,21 +1,8 @@
 🧬 Ralstonia solanacearum Tomato Genome Project
 This repository documents a comprehensive bioinformatics pipeline for analyzing Ralstonia solanacearum, a bacterial plant pathogen affecting tomato plants. The analysis includes read preprocessing, genome assembly, annotation, quality assessment, and effector prediction.
 
-Ralstonia_solanacearum_tomato/
-│
-├── raw_data/                         # Raw FASTQ sequencing files
-├── Results/
-│   ├── trimmomatic/                 # Adapter-trimmed, quality-filtered reads
-│   ├── spades_assembly/            # SPAdes assembly output
-│   ├── ragtag_scaffolded_assembly/ # Reference-guided scaffolding
-│   ├── prokka_annotation/          # Genome annotation by Prokka
-│   ├── busco/                      # BUSCO genome completeness assessment
-│   ├── quast/                      # QUAST assembly metrics
-│   └── interproscan/              # Functional annotation of proteins
-│
-├── Code/                            # All Jupyter notebooks and scripts
-│   └── Ralstonia_solanacearum_tomato.ipynb
-└── README.md                        # Project overview
+📁 Project Directory Structure
+<pre> Ralstonia_solanacearum_tomato/ │ ├── raw_data/ # Raw FASTQ sequencing files ├── Results/ │ ├── trimmomatic/ # Adapter-trimmed, quality-filtered reads │ ├── spades_assembly/ # SPAdes assembly output │ ├── ragtag_scaffolded_assembly/ # Reference-guided scaffolding │ ├── prokka_annotation/ # Genome annotation by Prokka │ ├── busco/ # BUSCO genome completeness assessment │ ├── quast/ # QUAST assembly metrics │ └── interproscan/ # Functional annotation of proteins │ ├── Code/ # All Jupyter notebooks and scripts │ └── Ralstonia_solanacearum_tomato.ipynb └── README.md # Project overview </pre>
 
 | Tool             | Purpose                                     |
 | ---------------- | ------------------------------------------- |
